@@ -1,0 +1,120 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: grid;
+    grid-template-areas:
+    'header header header header'
+    'side side side side'
+    'main main main main'
+    'footer footer footer footer';
+    width: auto;
+    height: auto;
+
+}
+.hea{
+    grid-area: header;
+    background-color:#E6BA95;
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+    
+
+}
+.hea img{
+    width: 10vw;
+    height: 10vh;
+}
+.side-bar{
+    grid-area: side;
+    background-color: #A2B38B;
+}
+#list{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-size:x-large;
+}
+.main{
+    grid-area: main;
+    background-color: #FAFDD6;
+}
+.me{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.me img{
+    width: 50vw;
+    height: 40vh;
+    border-radius: 50%;
+    
+}
+.me img:hover{
+    animation: img 2s  1s  alternate;
+    
+}
+.me p{
+    text-align: center;
+}
+.me h1{
+    text-align: center;
+}
+.git{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.git img{
+
+    width: 30vw;
+    height: 24vh;
+
+}
+.mephoto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gallrey{
+    display:flex ;
+    width: 25vw;
+    height: 30vh;
+    animation: gallrey 10s infinite alternate linear ;
+    
+}
+@keyframes gallrey {
+    0% {background-image: url(./images/sigi.jpeg);
+        background-size: 100% 100%;
+    }
+    25%{background-image: url(./images/T-black.jpeg);
+        background-size: 100% 100%;
+    }
+    50%{background-image: url(./images/T-red.jpeg);
+    background-size: 100% 100%;
+    }
+    75%{background-image: url(./images/t-pink.jpeg);
+        background-size: 100% 100%;
+    }
+    100%{background-image: url(./images/t-yellow.jpeg);
+        background-size: 100% 100%;
+    }
+}
+
+
+
+.footer{
+    grid-area: footer;
+    background-color: #1A3C40;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.footer img{
+    width:20vw ;
+    height:10vh ;
+    align-items: center;
+    
+}

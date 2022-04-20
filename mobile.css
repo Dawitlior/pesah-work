@@ -16,7 +16,7 @@ body{
 }
 .hea{
     grid-area: header;
-    background-color:#E6BA95;
+    background-color:#F7CCAC;
     display: flex;
     align-self: center;
     justify-content: space-around;
@@ -29,7 +29,8 @@ body{
 }
 .side-bar{
     grid-area: side;
-    background-color: #A2B38B;
+    background-color: #3A3845;
+
 }
 #list{
     display: flex;
@@ -39,7 +40,7 @@ body{
 }
 .main{
     grid-area: main;
-    background-color: #FAFDD6;
+    background-color: #C69B7B;
 }
 .me{
     display: flex;
@@ -54,7 +55,7 @@ body{
 }
 .me img:hover{
     animation: img 2s  1s  alternate;
-    
+
 }
 .me p{
     text-align: center;

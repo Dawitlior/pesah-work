@@ -34,9 +34,12 @@ body{
 }
 #list{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     list-style: none;
     font-size:x-large;
+    font-style: oblique;
+    border: 1px solid black;
+    
 }
 .main{
     grid-area: main;
@@ -81,7 +84,7 @@ body{
 }
 .gallrey{
     display:flex ;
-    width: 25vw;
+    width: 60vw;
     height: 30vh;
     animation: gallrey 10s infinite alternate linear ;
     

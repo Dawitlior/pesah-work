@@ -19,7 +19,7 @@ body {
 
 .hea {
     grid-area: header;
-    background-color: #989e3e;
+    background-color: #e4e404dc;
     display: flex;
     align-self: center;
     justify-content: space-around;
@@ -39,6 +39,7 @@ body {
     background-color: #A2B38B;
     border: 1px solid black;
     
+    
 }
 
 
@@ -54,7 +55,7 @@ body {
 
 .main {
     grid-area: main;
-    background-color: #39b9a8c0;
+    background-color: #054139be;
     border: 1px solid black;
     
 }
@@ -107,9 +108,11 @@ body {
 
 .gallrey {
     display: flex;
-    width: 25vw;
-    height: 30vh;
-    animation: gallrey 10s infinite alternate linear;
+    border: 3px solid black;
+    border-radius: 25%;
+    width: 40vw;
+    height: 60vh;
+    animation: gallrey 15s infinite alternate linear;
 
 }
 
@@ -144,7 +147,7 @@ body {
 
 .footer {
     grid-area: footer;
-    background-color: #1A3C40;
+    background-color: #e4e404dc;
     display: flex;
     flex-direction: row;
     justify-content: space-around;

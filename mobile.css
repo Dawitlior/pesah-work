@@ -16,7 +16,7 @@ body{
 }
 .hea{
     grid-area: header;
-    background-color:#F7CCAC;
+    background-color:#1A3C40;
     display: flex;
     align-self: center;
     justify-content: space-around;
@@ -26,10 +26,11 @@ body{
 .hea img{
     width: 10vw;
     height: 10vh;
+    border-radius: 60%;
 }
 .side-bar{
     grid-area: side;
-    background-color: #3A3845;
+    background-color: #3a3845dc;
 
 }
 #list{
@@ -117,8 +118,9 @@ body{
     justify-content: space-around;
 }
 .footer img{
-    width:20vw ;
-    height:10vh ;
+    width:12vw ;
+    height:9vh ;
     align-items: center;
+    border-radius: 25%;
     
 }

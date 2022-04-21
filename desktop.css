@@ -94,11 +94,17 @@ body {
 }
 
 .git img {
-
     width: 37vw;
     height: 44vh;
     border-radius: 5%;
 }
+
+.git p {
+        text-align: center;
+        font-size: large;
+        
+}
+
 
 .mephoto {
     display: flex;

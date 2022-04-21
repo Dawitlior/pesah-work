@@ -20,19 +20,20 @@ body{
     display: flex;
     align-self: center;
     justify-content: space-around;
+    border: 2px solid black;
     
     
 
 }
 .hea img{
-    width: 10vw;
+    width: 15vw;
     height: 10vh;
     border-radius: 60%;
 }
 .side-bar{
     grid-area: side;
     background-color: #f0eff5dc;
-    /* display: none; */
+    display: none;
     
 
 }
@@ -49,6 +50,7 @@ body{
 .main{
     grid-area: main;
     background-color: #24222065;
+    border: 2px solid black;
 }
 .me{
     display: flex;
@@ -56,13 +58,14 @@ body{
     align-items: center;
 }
 .me img{
-    width: 50vw;
+    width: 65vw;
     height: 40vh;
-    border-radius: 50%;
+    border-radius: 100%;
     
 }
 .me img:hover{
     animation: img 2s  1s  alternate;
+    box-shadow: 4px 7px 10px;
 
 }
 .me p{
@@ -80,7 +83,10 @@ body{
 
     width: 30vw;
     height: 24vh;
-
+}
+.git p{
+    text-align: center;
+    font-size: large;
 }
 .mephoto{
     display: flex;
@@ -120,6 +126,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    border: 2px solid black;
 }
 .footer img{
     width:12vw ;

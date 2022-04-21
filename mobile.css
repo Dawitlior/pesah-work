@@ -16,10 +16,11 @@ body{
 }
 .hea{
     grid-area: header;
-    background-color:#1A3C40;
+    background-color:#4dd9e9;
     display: flex;
     align-self: center;
     justify-content: space-around;
+    
     
 
 }
@@ -30,7 +31,9 @@ body{
 }
 .side-bar{
     grid-area: side;
-    background-color: #3a3845dc;
+    background-color: #f0eff5dc;
+    /* display: none; */
+    
 
 }
 #list{
@@ -38,13 +41,14 @@ body{
     justify-content: space-between;
     list-style: none;
     font-size:x-large;
-    font-style: oblique;
+    font-style:italic;
     border: 1px solid black;
+    
     
 }
 .main{
     grid-area: main;
-    background-color: #C69B7B;
+    background-color: #24222065;
 }
 .me{
     display: flex;
@@ -112,7 +116,7 @@ body{
 
 .footer{
     grid-area: footer;
-    background-color: #1A3C40;
+    background-color: #4dd9e9;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -121,6 +125,6 @@ body{
     width:12vw ;
     height:9vh ;
     align-items: center;
-    border-radius: 25%;
+    border-radius: 20%;
     
 }

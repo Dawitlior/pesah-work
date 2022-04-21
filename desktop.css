@@ -19,7 +19,7 @@ body {
 
 .hea {
     grid-area: header;
-    background-color: #e4e404dc;
+    background-color: #E9EFC0;
     display: flex;
     align-self: center;
     justify-content: space-around;
@@ -55,7 +55,7 @@ body {
 
 .main {
     grid-area: main;
-    background-color: #054139be;
+    background-color: #B4E197;
     border: 1px solid black;
     
 }
@@ -68,7 +68,7 @@ body {
 .me p{
     font-style: italic;
     font-size:x-large;
-        text-align: center;
+    text-align: center;
 }
 
 .me img {
@@ -147,7 +147,7 @@ body {
 
 .footer {
     grid-area: footer;
-    background-color: #e4e404dc;
+    background-color: #4E944F;
     display: flex;
     flex-direction: row;
     justify-content: space-around;

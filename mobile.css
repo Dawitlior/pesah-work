@@ -88,6 +88,10 @@ body{
     text-align: center;
     font-size: large;
 }
+.git h4{
+    font-size: large;
+    font-style: oblique;
+}
 .mephoto{
     display: flex;
     flex-direction: column;

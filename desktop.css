@@ -2,7 +2,6 @@ body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    
 }
 
 .container {
@@ -23,8 +22,7 @@ body {
     display: flex;
     align-self: center;
     justify-content: space-around;
-    border: 1px solid black;
-
+    border: 5px double black;
 
 }
 
@@ -37,7 +35,7 @@ body {
 .side-bar {
     grid-area: side;
     background-color: #A2B38B;
-    border: 1px solid black;
+    border: 5px double black;
     
     
 }
@@ -56,7 +54,7 @@ body {
 .main {
     grid-area: main;
     background-color: #B4E197;
-    border: 1px solid black;
+    border: 5px double black;
     
 }
 
@@ -157,6 +155,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    border: 5px double black;
 }
 
 .footer img {
